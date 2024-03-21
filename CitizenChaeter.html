@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Citizen Charter</title>
+        <meta charset="UTF-8">
+    		<title>Panel Tools - jQuery EasyUI Demo</title>
+    		<link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+    		<link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+    		<link rel="stylesheet" type="text/css" href="../demo.css">
+    		<script type="text/javascript" src="../../jquery.min.js"></script>
+    		<script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="themes/default/panel.css">
+		<link rel="stylesheet" type="text/css" href="themes/icon.css">
+		<link rel="stylesheet" type="text/css" href="demo.css">
+		<link rel="stylesheet" type="text/css" href="demo.css">	
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.easyui.min.js"></script>
+		<script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript"> src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"</script>
+<style>
+.accordion {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-color: #0E2D5F;
+  background-color: #1abc9c;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #0E2D5F;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.active, .accordion:hover {
+  background-color: #7bdcb5;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #0E2D5F;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: 14px;
+  font-color: #0E2D5F;
+}
+
+/* .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.4s ease;
+  } */  
+
+  /* .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  } */
+
+  /* Table styles */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #abe4ee;
+  }
+
+  th {
+    background-color: #2ba8e2;
+  }
+
+  /* Even row background color */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+</style>
+</head>
+<body>
+<h2>Citizen Charter - Ministry of Health</h2>
+<div class="easyui-panel" style="height:1000px;padding:5px;"></div>
+<table style="font-size:18px">
+<tr><td width="15%">Our vision: <td>A healthier nation that contributes to its economic, social, mental and spiritual development.
+</td></tr>
+<tr><td>Our mission: <td>To contribute to the social and economic development of Sri Lanka by achieving the highest attainable health status through promotive, preventive, curative and rehabilitative services of high quality made available and accessible to people of Sri Lanka.
+</td></tr>
+<tr><td>Our commitment:<td>We are dedicated to serve you
+<table width="70%"><tr><td><ul><li>honestly</li><li>with understanding</li><li>with transparency</li><li>efficiently</li></ul><td>
+<td><ul><li>courteously</li><li>subjectively</li><li>with accountability</li><li>effectively</li></ul><td>
+<td><ul><li>wisely</li><li>unbiased</li><li>unbiased</li><li>without delay</li></ul><td></tr>
+</table> 
+</td></tr>
+</table>
+<table>
+
+<tr><td>
+<button class="accordion">Service :   Recommending applications for funds from the Presidential Fund and submitting them to the Presidential Secretariat</button>
+<div class="panel">
+
+  <table class="table">
+    <thead>
+      <tr style="color: rgb(172, 219, 219);">
+        <th scope="col">Service</th>
+        <th scope="col">Division providing the service</th>
+        <th scope="col">Service delivery  standards</th>
+        <th scope="col">Relevant rules / regulations</th>
+        <th scope="col">Information / documents to be submitted</th>
+        <th scope="col">Co-ordinating Officer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="color: rgb(5, 15, 19);">
+        <td>Recommending applications for funds from the Presidential Fund and submitting them to the Presidential Secretariat</td>
+        <td>Presidential Fund Division</td>
+        <td>2 weeks</td>
+        <td>Rules & regulations issued by the Presidential Secretariat</td>
+        <td><ul>
+          <li>Letter of recommendation of the Consultant Medical Practitioner</li>
+          <li>	Estimate of expenditure </li>
+          <li>Completed application received from the Presidential Secretariat</li>
+        </ul> </td>
+        <td>Ayesha Liyanage, 
+          Public Management Assistant,
+          0771448276,
+          sujeewadamyanthi[a]gmail.com 
+          </td>
+      </tr>
+      
+    </tbody>
+  </table>
+   
+</div>
+</td></tr>
+
+<tr><td>
+<button class="accordion">Service :  Recommending diseases for assistance from the President's Fund </button>
+<div class="panel">
+
+  <table class="table">
+    <thead>
+      <tr style="color: rgb(172, 219, 219);">
+        <th scope="col">Service</th>
+        <th scope="col">Division providing the service</th>
+        <th scope="col">Service delivery  standards</th>
+        <th scope="col">Relevant rules / regulations</th>
+        <th scope="col">Information / documents to be submitted</th>
+        <th scope="col">Co-ordinating Officer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="color: rgb(5, 15, 19);">
+        <td>Recommending applications for funds from the Presidential Fund and submitting them to the Presidential Secretariat</td>
+        <td>Additional Secretary (Medical Services)</td>
+        <td>1 weeks</td>
+        <td></td>
+        <td><ul>
+          <li>Application for financial assistance from the President's Fund and relevant medical reports </li>
+          <!-- <li>	Estimate of expenditure </li>
+          <li>Completed application received from the Presidential Secretariat</li> -->
+        </ul> </td>
+        <td>Sunanda Jayalath, 
+          Public Management Assistant,
+          0112693175
+          
+          </td>
+      </tr>
+      
+    </tbody>
+  </table>
+  
+</td></tr>
+
+<tr><td>
+<button class="accordion">Service : Providing recommendations for kidney transplant surgeries performed in private hospitals.  </button>
+<div class="panel">
+
+  <table class="table">
+    <thead>
+      <tr style="color: rgb(172, 219, 219);">
+        <th scope="col">Service</th>
+        <th scope="col">Division providing the service</th>
+        <th scope="col">Service delivery  standards</th>
+        <th scope="col">Relevant rules / regulations</th>
+        <th scope="col">Information / documents to be submitted</th>
+        <th scope="col">Co-ordinating Officer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="color: rgb(5, 15, 19);">
+        <td>Providing recommendations for kidney transplant surgeries performed in private hospitals.</td>
+        <td>Private Health  Development Division</td>
+        <td>02 Days</td>
+        <td>The Transplantation of Human Tissues Act</td>
+        <td><ul>
+          <li>•	Medical Consultant Certificate </li>
+          <li> •	Request of the private hospital	 </li>
+          <li>•	Affidavits of the patient and the donor / Birth certificates/ copies of the National Identity Card / Grama Niladhari Certificates</li>
+          <li>•	Documents in proof of relationship of the patient and donor</li>
+        </ul> </td>
+        <td>Dr. Dilip H. Liyanage
+          Director,
+          Private Health Development Division
+          0112112725
+          ddgms2[a]health.gov.lk
+          
+          
+          </td>
+      </tr>
+      
+    </tbody>
+  </table>
+  
+</div>
+</td></tr>
+
+
+<tr><td>
+  <button class="accordion">Service :  Issuance of COVID -19 vaccination certificates. </button>
+  <div class="panel">
+  
+    <table class="table">
+      <thead>
+        <tr style="color: rgb(172, 219, 219);">
+          <th scope="col">Service</th>
+          <th scope="col">Division providing the service</th>
+          <th scope="col">Service delivery  standards</th>
+          <th scope="col">Relevant rules / regulations</th>
+          <th scope="col">Information / documents to be submitted</th>
+          <th scope="col">Co-ordinating Officer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="color: rgb(5, 15, 19);">
+          <td>Issuance of COVID -19 vaccination certificates.</td>
+          <td>Management Development and Planning Unit</td>
+          <td>14 days</td>
+          <td>Rules and regulations imposed by the Ministry of Health</td>
+          <td><ul>
+            <li>	Having received Covid vaccination in Sri Lanka</li>
+            <li>Vaccination card </li>
+            <li>	National Identity Card</li>
+            <li>	•	Certificates in proof of foreign travel</li>
+          </ul> </td>
+          <td>Dr. Palitha Karunapema, Director, Health Information Division
+            01122693297,
+            Covid19-svc[a]health.gov.lk
+            
+            
+            </td>
+        </tr>
+        
+      </tbody>
+    </table>
+    
+  </div>
+  </td></tr>
+
+  <tr><td>
+    <button class="accordion">Service :  Issuance of published health statistics / provision of data to be issued after analysis.  </button>
+    <div class="panel">
+    
+      <table class="table">
+        <thead>
+          <tr style="color: rgb(172, 219, 219);">
+            <th scope="col">Service</th>
+            <th scope="col">Division providing the service</th>
+            <th scope="col">Service delivery  standards</th>
+            <th scope="col">Relevant rules / regulations</th>
+            <th scope="col">Information / documents to be submitted</th>
+            <th scope="col">Co-ordinating Officer</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="color: rgb(5, 15, 19);">
+            <td>Issuance of published health statistics / provision of data to be issued after analysis. </td>
+            <td>Medical Statistics Division</td>
+            <td>1 day /
+
+              5 days
+              </td>
+            <td> Release of Statistics Act.
+
+            </td>
+            <td><ul>
+              <li>Data request letter / E mail message</li>
+              <li>	Approval of the Head of the Division</li>
+             
+            
+              
+            </ul> </td>
+            <td>S. T. C. Gaveshika
+              0775582722
+              0112695734
+              medicalstatisticsunit[a]gmail.com
+              
+              
+              
+              </td>
+          </tr>
+          
+        </tbody>
+      </table>
+      
+    </div>
+    </td></tr>
+
+    <tr><td>
+      <button class="accordion">Service :  Conducting interviews for visa applicants and giving recommendations
+
+      </button>
+      <div class="panel">
+      
+        <table class="table">
+          <thead>
+            <tr style="color: rgb(172, 219, 219);">
+              <th scope="col">Service</th>
+              <th scope="col">Division providing the service</th>
+              <th scope="col">Service delivery  standards</th>
+              <th scope="col">Relevant rules / regulations</th>
+              <th scope="col">Information / documents to be submitted</th>
+              <th scope="col">Co-ordinating Officer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="color: rgb(5, 15, 19);">
+              <td>Conducting interviews for visa applicants and giving recommendations
+
+              </td>
+              <td>Deputy Director General (Laboratory Services)</td>
+              <td>02 weeks</td>
+              <td>•	Updated guidelines for drugs company visa
+
+              </td>
+              <td><ul>
+                <li>Letter of the Ministry of Foreign Affairs</li>
+  <li>Letter of the High Commission / Embassy</li>
+  <li>Request letter of the local agent</li>
+  <li>Certified copy of the passport</li>
+  <li>Vocational qualification certificate</li>
+  <li>NMRA registration certificate</li>
+  <li>Company registration certificate</li>
+  <li>Affidavit</li>
+  <li>A photograph</li>
+  <li>File containing the letter of appointment</li>
+              </ul> </td>
+              <td>Dr. T. Abarna
+                Medical Officer
+                
+                K.D.S. Perera
+                Management Assistant
+                TP - 0112673138
+                ddgls.mohlk@gmail.com
+                
+                </td>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+      </div>
+      </td></tr>
+
+      <tr><td>
+        <button class="accordion">Service : Giving consent for the visa applicants (entry and residential visa)
+
+        </button>
+        <div class="panel">
+        
+          <table class="table">
+            <thead>
+              <tr style="color: rgb(172, 219, 219);">
+                <th scope="col">Service</th>
+                <th scope="col">Division providing the service</th>
+                <th scope="col">Service delivery  standards</th>
+                <th scope="col">Relevant rules / regulations</th>
+                <th scope="col">Information / documents to be submitted</th>
+                <th scope="col">Co-ordinating Officer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="color: rgb(5, 15, 19);">
+                <td>Giving consent for the visa applicants (entry and residential visa)
+
+                </td>
+                <td>International Health Unit</td>
+                <td>2 weeks</td>
+                <td>•	Updated guidelines for drugs company visa
+                </td>
+                <td><ul>
+                  <li>Letter of the Ministry of Foreign Affairs</li>
+                  <li>Letters of the relevant High Commission / Embassy</li>
+                  <li>Application for the local agent</li>
+                  <li>Certified copy of the passport</li>
+                  <li>Vocational qualification certificates</li>
+                  <li>NMRA registration certificate</li>
+                  <li>Company registration certificate</li>
+                  <li>Affidavit</li>
+                  <li>Letter of appointment</li>
+                  
+                </ul> </td>
+                <td>
+                  Dr. Anil Samaranayake,  Director 
+                 (International Health)
+                  0112678277
+                dihunit[a]health.gov.lk
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+          
+        </div>
+        </td></tr>
+
+        <tr><td>
+          <button class="accordion">Service : Issuance of ship sanitation certificates
+
+          </button>
+          <div class="panel">
+          
+            <table class="table" >
+              <thead>
+                <tr style="color: rgb(172, 219, 219);">
+                  <th scope="col">Service</th>
+                  <th scope="col">Division providing the service</th>
+                  <th scope="col">Service delivery  standards</th>
+                  <th scope="col">Relevant rules / regulations</th>
+                  <th scope="col">Information / documents to be submitted</th>
+                  <th scope="col">Co-ordinating Officer</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="color: rgb(5, 15, 19);">
+                  <td>Issuance of ship sanitation certificates
+                  </td>
+                  <td>Port Health Office, Trincomalee
+
+                  </td>
+                  <td>1 Day</td>
+                  <td>•	Provisions in the letter No. PA/DDG(PHS)/PQ/21/2017 of Director (Quarantine)  
+                    •	IHR 2005
+                    </td>
+                  <td><ul>
+                    <li>Letter of request containing full particulars of the ship sent by the ship agent company</li>
+                    <li>	Receipt of payment of the approved amount to the Bank of Ceylon</li>
+                    
+                  </ul> </td>
+                  <td>Chief Medical Officer of Health
+                    026-2222004
+                    porthealthrinco[a]gmail.com
+                 </td>
+                </tr>
+                
+              </tbody>
+            </table>
+            
+          </div>
+          </td></tr>
+
+          <tr><td>
+            <button class="accordion">Service : Issuance of ship sanitation certificates
+  
+            </button>
+            <div class="panel">
+            
+              <table class="table" >
+                <thead>
+                  <tr style="color: rgb(172, 219, 219);">
+                    <th scope="col">Service</th>
+                    <th scope="col">Division providing the service</th>
+                    <th scope="col">Service delivery  standards</th>
+                    <th scope="col">Relevant rules / regulations</th>
+                    <th scope="col">Information / documents to be submitted</th>
+                    <th scope="col">Co-ordinating Officer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="color: rgb(5, 15, 19);">
+                    <td>Issuance of ship sanitation certificates
+                    </td>
+                    <td>
+                      Port Health Office, Colombo
+
+                    </td>
+                    <td>1 Day</td>
+                    <td> Quarantine Ordinance and International Health Regulations
+                      </td>
+                    <td><ul>
+                      <li>Letter of request containing full particulars of the ship sent by the ship agent company</li>
+                      <li>Receipt of payment of the approved amount to the Bank of Ceylon</li>
+                      
+                    </ul> </td>
+                    <td>Dr. R.K.S. Wijesinghe
+                      0112482351
+                      colomboportlk[a]gmail.com
+                      
+                      
+                   </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+              
+            </div>
+            </td></tr>
+
+            <tr><td>
+              <button class="accordion">Service : Issuance of ship sanitation certificates
+    
+              </button>
+              <div class="panel">
+              
+                <table class="table" >
+                  <thead>
+                    <tr style="color: rgb(172, 219, 219);">
+                      <th scope="col">Service</th>
+                      <th scope="col">Division providing the service</th>
+                      <th scope="col">Service delivery  standards</th>
+                      <th scope="col">Relevant rules / regulations</th>
+                      <th scope="col">Information / documents to be submitted</th>
+                      <th scope="col">Co-ordinating Officer</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="color: rgb(5, 15, 19);">
+                      <td>Issuance of ship sanitation certificates
+                      </td>
+                      <td>
+                        Port Health Office,Galle
+  
+                      </td>
+                      <td>05 hours</td>
+                      <td> •	Quarantine Ordinance <br>
+                        •	International Health Regulations<br>
+                        •	Standard procedure of operation<br>
+                        
+                        </td>
+                      <td><ul>
+                        <li>Letter of request containing full particulars of the ship sent by the ship agent company</li>
+                        <li>Receipt of payment of the approved amount to the Bank of Ceylon</li>
+                        
+                      </ul> </td>
+                      <td>Dr. J. P. Sriyani
+                        091223575,
+                        Phealthgalle[a]gmail.com.
+                     
+                     </td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+                
+              </div>
+              </td></tr>
+
+              <tr><td>
+                <button class="accordion">Service : Issuance of port entry permits
+
+                </button>
+                <div class="panel">
+                
+                  <table class="table" >
+                    <thead>
+                      <tr style="color: rgb(172, 219, 219);">
+                        <th scope="col">Service</th>
+                        <th scope="col">Division providing the service</th>
+                        <th scope="col">Service delivery  standards</th>
+                        <th scope="col">Relevant rules / regulations</th>
+                        <th scope="col">Information / documents to be submitted</th>
+                        <th scope="col">Co-ordinating Officer</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="color: rgb(5, 15, 19);">
+                        <td>Issuance of port entry permits
+
+
+                        </td>
+                        <td>
+                          Port Health Office, Colombo
+    
+                        </td>
+                        <td>1 Day</td>
+                        <td> Quarantine Ordinance and International Health Regulations
+                          </td>
+                        <td><ul>
+                          <li>•	Maritime Declaration of Health</li>
+                          •	Staff list<br>
+                          •	ship sanitation certificate<br>
+                          •	particulars of the last port of call of the ship <br>
+                          •	yellow fever vaccination record<br>
+                       </ul> </td>
+                        <td>Dr. K. A. A. Premalal
+                          0112482351
+                          colomboportlk[a]gmail.com
+                        </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                  
+                </div>
+                </td></tr>
+
+                <tr><td>
+                  <button class="accordion">Service : Issuance of port entry permits
+        
+                  </button>
+                  <div class="panel">
+                  
+                    <table class="table" >
+                      <thead>
+                        <tr style="color: rgb(172, 219, 219);">
+                          <th scope="col">Service</th>
+                          <th scope="col">Division providing the service</th>
+                          <th scope="col">Service delivery  standards</th>
+                          <th scope="col">Relevant rules / regulations</th>
+                          <th scope="col">Information / documents to be submitted</th>
+                          <th scope="col">Co-ordinating Officer</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr style="color: rgb(5, 15, 19);">
+                          <td> Issuance of port entry permits
+                          </td>
+                          <td>
+                            Port Health Office, Galle
+      
+                          </td>
+                          <td>15 minutes</td>
+                          <td>•	Quarantine Ordinance <br>
+                            •	International Health Regulations  <br>
+                            •	Standard procedure of operation  <br>
+                            
+                            </td>
+                          <td><ul>
+                            <li>	Maritime Declaration of Health</li>
+                            <li>	Staff list</li>
+                            <li>	ship sanitation certificate</li>
+                            <li>particulars of the last port of call of the ship </li>
+                            <li>yellow fever vaccination record </li>
+
+
+                          </ul> </td>
+                          <td>Dr. J. P. Sriyani
+                            091223575
+                            Phealthgalle[a]gmail.com
+                    
+                         </td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                    
+                  </div>
+                  </td></tr>
+
+                  <tr><td>
+                    <button class="accordion">Service : Providing preventive medicine for malaria, polio / giving medicine, prescribed vaccinations for other prescribed diseases
+
+                    </button>
+                    <div class="panel">
+                    
+                      <table class="table" >
+                        <thead>
+                          <tr style="color: rgb(172, 219, 219);">
+                            <th scope="col">Service</th>
+                            <th scope="col">Division providing the service</th>
+                            <th scope="col">Service delivery  standards</th>
+                            <th scope="col">Relevant rules / regulations</th>
+                            <th scope="col">Information / documents to be submitted</th>
+                            <th scope="col">Co-ordinating Officer</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr style="color: rgb(5, 15, 19);">
+                            <td>Providing preventive medicine for malaria, polio / giving medicine, prescribed vaccinations for other prescribed diseases
+
+
+                            </td>
+                            <td>
+                              Airport Health Office
+        
+                            </td>
+                            <td>10 Munites</td>
+                            <td> •	Quarantine Ordinance / International Health Regulations - 2005
+                              </td>
+                            <td><ul>
+                              <li>Passport</li>
+                              
+                              
+                            </ul> </td>
+                            <td>Airport Medical Officer/ Public Health Inspector
+                              0472031486
+                              Mria.healthoffice[a]gmail.com
+                              
+                           </td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                      
+                    </div>
+                    </td></tr>
+
+                    <tr><td>
+                      <button class="accordion">Service : Release of bodies of persons who die in aero planes 
+                      </button>
+                      <div class="panel">
+                      
+                        <table class="table" >
+                          <thead>
+                            <tr style="color: rgb(172, 219, 219);">
+                              <th scope="col">Service</th>
+                              <th scope="col">Division providing the service</th>
+                              <th scope="col">Service delivery  standards</th>
+                              <th scope="col">Relevant rules / regulations</th>
+                              <th scope="col">Information / documents to be submitted</th>
+                              <th scope="col">Co-ordinating Officer</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr style="color: rgb(5, 15, 19);">
+                              <td>
+                                Release of bodies of persons who die in aero planes 
+                              </td>
+                              <td>
+                                Airport Health Office
+          
+                              </td>
+                              <td>1 Day</td>
+                              <td> •	Quarantine Ordinance<br>
+                                •	Food Act <br>
+                                •	International Health Regulations - 2005<br>
+                               
+                               </td>
+                              <td><ul>
+                                <li>Passport</li>
+                                <li>•	Relevant documents</li>
+                                
+                              </ul> </td>
+                              <td>Airport Medical Officer/ Public Health Inspector
+                                0472031486
+                                Mria.healthoffice@gmail.com
+                                
+                                
+                                
+                             </td>
+                            </tr>
+                            
+                          </tbody>
+                        </table>
+                        
+                      </div>
+                      </td></tr>
+
+                      <tr><td>
+                        <button class="accordion">Service : Issuance of certificates of results of examinations conducted in relation to the Ministry of Health.
+                        </button>
+                        <div class="panel">
+                        
+                          <table class="table" >
+                            <thead>
+                              <tr style="color: rgb(172, 219, 219);">
+                                <th scope="col">Service</th>
+                                <th scope="col">Division providing the service</th>
+                                <th scope="col">Service delivery  standards</th>
+                                <th scope="col">Relevant rules / regulations</th>
+                                <th scope="col">Information / documents to be submitted</th>
+                                <th scope="col">Co-ordinating Officer</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr style="color: rgb(5, 15, 19);">
+                                <td>Issuance of ship sanitation certificates
+                                </td>
+                                <td>
+                                  Examinations Branch
+            
+                                </td>
+                                <td>2 Day</td>
+                                <td> Relevant examination conducted and results issued
+                                  </td>
+                                <td><ul>
+                                  A letter of request containing particulars of the name of the examination, full name of the applicant, National Identity Card No., the year of sitting for the examination should be submitted through the Head of the Department
+                                </ul> </td>
+                                <td>S. A. Parakrama N. Bandara, 
+                                  Administrative Officer 
+                                  0112675008
+                                  direxam[a]health.gov.lk
+                                </td>
+                              </tr>
+                              
+                            </tbody>
+                          </table>
+                          
+                        </div>
+        </td></tr>
+
+
+        <tr><td>
+          <button class="accordion">Service : Reservation of circuit bungalows
+          </button>
+          <div class="panel">
+          
+            <table class="table" >
+              <thead>
+                <tr style="color: rgb(172, 219, 219);">
+                  <th scope="col">Service</th>
+                  <th scope="col">Division providing the service</th>
+                  <th scope="col">Service delivery  standards</th>
+                  <th scope="col">Relevant rules / regulations</th>
+                  <th scope="col">Information / documents to be submitted</th>
+                  <th scope="col">Co-ordinating Officer</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="color: rgb(5, 15, 19);">
+                  <td>
+                    Central Administration Branch
+
+                  </td>
+                  <td>
+                    Airport Health Office
+
+                  </td>
+                  <td>1 Day</td>
+                  <td> 
+                    Health General Circular No. 
+                   02-52/2013
+
+                  </td>
+                  <td><ul>
+                    <li>Completed application.</li>
+                    <li>	Receipt obtained after making the payment</li>
+                    •	If an official reservation, the letter of confirmation of the same containing signature and official stamp of the officer in charge of the relevant division<br>
+                    
+                  </ul> </td>
+                  <td>Ruchira Dissanayake, Development Officer, Central Administration Branch
+                    0112693962
+                    caministryofhealth137[a]gmail.com
+                         
+                 </td>
+                </tr>
+                
+              </tbody>
+            </table>
+            
+          </div>
+          </td></tr>
+
+          <tr><td>
+            <button class="accordion">Service : Providing information on letters received and sent (over the phone or by visiting)
+            </button>
+            <div class="panel">
+            
+              <table class="table" >
+                <thead>
+                  <tr style="color: rgb(172, 219, 219);">
+                    <th scope="col">Service</th>
+                    <th scope="col">Division providing the service</th>
+                    <th scope="col">Service delivery  standards</th>
+                    <th scope="col">Relevant rules / regulations</th>
+                    <th scope="col">Information / documents to be submitted</th>
+                    <th scope="col">Co-ordinating Officer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="color: rgb(5, 15, 19);">
+                    <td>
+                      Providing information on letters received and sent (over the phone or by visiting)
+                    </td>
+                    <td>
+                      Postal Branch
+
+                    </td>
+                    <td>2 days</td>
+                    <td>
+                      Principles of Office Systems
+
+
+                     </td>
+                    <td><ul>
+                      •	Registered letters -
+     Number and date of registration
+     Post office of registration<br>
+•	Letters sent by hand -
+      File No. / date handed over<br>
+•	Normal letters -
+      File No. / date handed over<br>
+•	Express mail letters / Courier letters -
+       Code No. / date handed over
+
+                      
+                    </ul> </td>
+                    <td>J. A. R.T. Kumara, Management Assistant
+                      0718003601
+                      
+                      
+                      
+                   </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+              
+            </div>
+            </td></tr>
+
+            <tr><td>
+              <button class="accordion">Service : Issuance of holiday railway warrants
+              </button>
+              <div class="panel">
+              
+                <table class="table" >
+                  <thead>
+                    <tr style="color: rgb(172, 219, 219);">
+                      <th scope="col">Service</th>
+                      <th scope="col">Division providing the service</th>
+                      <th scope="col">Service delivery  standards</th>
+                      <th scope="col">Relevant rules / regulations</th>
+                      <th scope="col">Information / documents to be submitted</th>
+                      <th scope="col">Co-ordinating Officer</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="color: rgb(5, 15, 19);">
+                      <td>
+                        Issuance of holiday railway warrants
+    
+                      </td>
+                      <td>
+                        Central Administration Branch
+    
+                      </td>
+                      <td>1 Day</td>
+                      <td> 
+                        Instructions in Chapter XIII of the Establishments Code
+                      </td>
+                      <td><ul>
+                        •	General 21 form<br>
+•	Certificate that no holiday railway warrants are issued from the office of the spouse when the spouse is also a public officer <br>
+•	If applications are made also for dependents, certificate of dependence issued by the Grama Niladhari<br>
+
+                        
+                      </ul> </td>
+                      <td>Y. A. D. N. S. Dhammika, Public Management Assistant, Central Administration Branch
+                        0112693962
+                        caministryofhealth137[a]gmail.com
+                        
+                        
+                     </td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+                
+              </div>
+              </td></tr>
+
+              
+              <tr><td>
+                <button class="accordion">Service : Receipt of Agrahara Insurance benefits
+                </button>
+                <div class="panel">
+                
+                  <table class="table" >
+                    <thead>
+                      <tr style="color: rgb(172, 219, 219);">
+                        <th scope="col">Service</th>
+                        <th scope="col">Division providing the service</th>
+                        <th scope="col">Service delivery  standards</th>
+                        <th scope="col">Relevant rules / regulations</th>
+                        <th scope="col">Information / documents to be submitted</th>
+                        <th scope="col">Co-ordinating Officer</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="color: rgb(5, 15, 19);">
+                        <td>
+                          Receipt of Agrahara Insurance benefits
+      
+                        </td>
+                        <td>Pension and Agrahara Branch
+
+
+      
+                        </td>
+                        <td>Sent to the National Insurance Trust Fund within 03 days</td>
+                        <td> 
+                          •	PAC 12/2005 and its amendments.
+                        </td>
+                        <td><ul>
+                          •	The Agrahara claim form with items 1 to 9 filled in it and duly attested by the Head of the Department by placing his signature and official stamp<br>
+•	Photocopies of Diagnosis Card / National Identity Card / Birth Certificate attested by Head of the Department<br>
+•	A clear photocopy of the pass book containing the account No. of the Agrahara member<br>
+•	The originals of pharmacy/ laboratory bills pertaining to the duration of hospitalization and originals of relevant medical prescriptions<br>
+•	Certified copies of salary particulars 03 months prior to hospitalization or purchasing spectacles.<br>
+•	Grama Niladhari Certificate in proof of any full disability<br>
+•	If the applicant is unmarried, the certificate of the Head of the Department attesting the same, the Grama Niladhari certificate that the mother / father is dependent on him (only for parents below 70 years of age), a photocopy of the National Identity Cards attested by the Head of the Department<br>
+•	If fully disabled, Grama Niladhari Certificate in proof of it.<br>
+
+                          
+                        </ul> </td>
+                        <td>D. M. Yamuna Dassanayake,
+                          Public Health Management Assistant
+                          TP   – 0112693746
+                          Healthministrypension5@gmail.com
+                          
+                          
+                          
+                               
+                       </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                  
+                </div>
+                </td></tr>
+      
+
+</table>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    </body>
+</html>
